@@ -1,0 +1,159 @@
+body {
+    margin: 0px;
+    padding: 0px 10px;
+    color: white;
+    font-size: 0.6rem;
+}
+
+.mainPage {
+    background-color: rgb(35, 37, 49);
+    font-family: 'Roboto Mono', monospace;
+}
+
+a {
+    color: inherit;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo0 {
+    padding: 0;
+    display: flex;
+    margin-top: -20px;
+    font-size: 2.5rem;
+}
+
+.logo0 .logo1 {
+    background: linear-gradient(90deg, rgba(201,32,55,1) 0%, rgba(248,85,42,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.5rem;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.navbar ul li .navA {
+    text-decoration: none;
+}
+
+.navbar ul li .navA:hover{
+    border-bottom: 1px solid linear-gradient(90deg, rgba(201,32,55,1) 0%, rgba(248,85,42,1) 100%);;
+    background: linear-gradient(90deg, rgba(201,32,55,1) 0%, rgba(248,85,42,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.navbar ul li:active {
+    background: linear-gradient(90deg, rgba(201,32,55,1) 0%, rgba(248,85,42,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-bottom: linear-gradient(90deg, rgba(201,32,55,1) 0%, rgba(248,85,42,1) 100%);;
+}
+
+.navbar .buyButton {
+    background-color: rgb(35, 37, 49);
+    border: 0.1px solid grey;
+    background: linear-gradient(90deg, rgba(201,32,55,1) 0%, rgba(248,85,42,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 5px 0;
+    font-size: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.navbar .buyButton a {
+    padding: 5px 10px;
+}
+
+.navbar .buyButton a:hover {
+    background-color: rgba(114, 108, 108, 0.205) !important;
+    transition: 0.5s;
+}
+
+.Home {
+    margin-top: 6rem;
+    margin-left: 5rem;
+}
+
+.Home p {
+    margin-top: -15px;
+    font-size: 1.5rem;
+}
+
+.Home .gradient {
+    background: linear-gradient(90deg, rgba(201,32,55,1) 0%, rgba(248,85,42,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+}
+
+.Home button {
+    background-color: rgb(63, 63, 71);;
+    padding: 6px 10px;
+    border-radius: 9px 0; 
+    font-size: 2.5rem;
+    border: 0;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.Home button:hover {
+    background-color: rgb(114, 108, 108);
+    transition: 0.5s ;
+    cursor: pointer;
+}
+
+main {
+   display: flex; 
+   align-items: center;
+   justify-content: space-between;
+   max-width: 90%;
+}
+
+input{
+    font-size: 1.2rem;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 9px 0;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    background: transparent;
+}
+.form button{
+    font-size: 1.2rem;
+    color: #fff;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 9px 0;
+    padding: 10px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+    background: transparent;
+}
+
+.form button:hover {
+    background: rgba(255, 255, 255, 0.103);
+    transition: 0.3s
+}
+
+ input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}

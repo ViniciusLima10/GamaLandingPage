@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <title>BookShop</title>
+</head>
+<body class="mainPage">
+    <header>
+        <div class="logo0">
+            <p class="Logo">Book</p><p class="logo1">shop</p>
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a class='navA'id="home" href="/">Home</a></li>
+                <li><a class='navA'id="aboutUs"href="">About us</a></li>
+                <li><a class='navA'id="news"href="">News</a></li>
+                <li><a class='navA'id="contact"href="">Contacts</a></li>
+                <button class="buyButton"><a href="">But books</a></button>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <article>
+            <div class="Home">
+                <p>Conference 2019</p>
+                <p class="gradient">Maior venda de livros<br> online de 2021</p>
+                
+                <p>Dia 6 a 9 de Agosto, cadastre-se já</p>
+                <br>
+                <p>Insira seu email para ficar por dentro de todas as promoções!</p>
+                
+            </div>
+            
+            <div class="speakers"></div>
+            <div class="aboutUs"></div>
+            <div class="news"></div>
+            <div class="contact"></div>
+            <div class="buyTicktes"></div>
+        </article>
+        
+        <article class="form">
+            
+            <form>
+                <input id='name'  type="text" placeholder='Nome' required>
+                <input id='email' type="email" placeholder='Email' required>
+                <button id="button" type="submit" onclick="SaveData()">Cadastrar</button>
+            </form>
+        </article>
+    </main>
+    
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
